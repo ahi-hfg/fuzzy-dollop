@@ -4,17 +4,18 @@ using System.Net.Http;
 using AutoFixture;
 using FluentAssertions;
 using FuzzyDollop.Api;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Xbehave;
 using Xunit;
 
 namespace FuzzyDollop.IntegrationTests
 {
-    public class GetTrainerByIdScenarios : IClassFixture<CustomWebApplicationFactory<Startup>>
+    public class GetTrainerByIdScenarios : IClassFixture<WebApplicationFactory<Startup>>
     {
         private readonly IFixture _fixture;
         private readonly HttpClient _httpClient;
 
-        public GetTrainerByIdScenarios(CustomWebApplicationFactory<Startup> factory)
+        public GetTrainerByIdScenarios(WebApplicationFactory<Startup> factory)
         {
             _fixture = new Fixture();
             _httpClient = factory.CreateDefaultClient();
