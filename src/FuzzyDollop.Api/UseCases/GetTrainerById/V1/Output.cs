@@ -11,6 +11,7 @@ namespace FuzzyDollop.Api.UseCases.GetTrainerById.V1
             result switch
             {
                 SuccessResult<Trainer> success => new OkObjectResult(success.Result),
+                EntityNotFoundResult => new NotFoundResult(),
                 _ => new StatusCodeResult(StatusCodes.Status500InternalServerError)
             };
     }
