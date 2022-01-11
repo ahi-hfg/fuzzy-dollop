@@ -1,4 +1,4 @@
 namespace FuzzyDollop.Application.Common
 {
-    public record EntityNotFoundResult : IResult;
+    public record EntityNotFoundResult : IAppResult;
 }

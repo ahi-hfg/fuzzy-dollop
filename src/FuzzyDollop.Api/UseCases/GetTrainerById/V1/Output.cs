@@ -7,7 +7,7 @@ namespace FuzzyDollop.Api.UseCases.GetTrainerById.V1
 {
     public static class Output
     {
-        public static IActionResult For(IResult result) =>
+        public static IActionResult For(IAppResult result) =>
             result switch
             {
                 SuccessResult<Trainer> success => new OkObjectResult(success.Result),

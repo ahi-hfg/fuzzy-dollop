@@ -6,7 +6,7 @@ namespace FuzzyDollop.Api.UseCases.RegisterTrainer.V1
 {
     public static class Output
     {
-        public static IActionResult For(IResult result) =>
+        public static IActionResult For(IAppResult result) =>
             result switch
             {
                 SuccessResult => new NoContentResult(),

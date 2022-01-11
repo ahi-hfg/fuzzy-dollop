@@ -1,6 +1,6 @@
 ﻿namespace FuzzyDollop.Application.Common
 {
-    public interface IResult
+    public interface IAppResult
     {
         
     }

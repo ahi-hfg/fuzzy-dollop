@@ -9,7 +9,7 @@ namespace FuzzyDollop.Api.Extensions
         public static IServiceCollection AddFluentValidation(this IServiceCollection services)
         {
             AssemblyScanner
-                .FindValidatorsInAssembly(typeof(IResult).Assembly)
+                .FindValidatorsInAssembly(typeof(IAppResult).Assembly)
                 .ForEach(validator => services.AddScoped(validator.InterfaceType, validator.ValidatorType));
 
             return services;

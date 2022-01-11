@@ -6,5 +6,5 @@ namespace FuzzyDollop.Application.UseCases.RegisterTrainer.V1
 {
     public record RegisterTrainerCommand
         (Guid Id, string FirstName, string LastName)
-        : IRequest<IResult>;
+        : IRequest<IAppResult>;
 }

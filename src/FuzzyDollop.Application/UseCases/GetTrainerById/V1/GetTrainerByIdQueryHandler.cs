@@ -7,7 +7,7 @@ using MediatR;
 
 namespace FuzzyDollop.Application.UseCases.GetTrainerById.V1
 {
-    public class GetTrainerByIdQueryHandler : IRequestHandler<GetTrainerByIdQuery, IResult>
+    public class GetTrainerByIdQueryHandler : IRequestHandler<GetTrainerByIdQuery, IAppResult>
     {
         private readonly ITrainerRepository _trainerRepository;
 
@@ -17,7 +17,7 @@ namespace FuzzyDollop.Application.UseCases.GetTrainerById.V1
             _trainerRepository = trainerRepository;
         }
 
-        public async Task<IResult> Handle(GetTrainerByIdQuery query, CancellationToken cancellationToken)
+        public async Task<IAppResult> Handle(GetTrainerByIdQuery query, CancellationToken cancellationToken)
         {
             var trainer = await _trainerRepository.GetAsync(query.TrainerId, cancellationToken);
             if (trainer == null)
