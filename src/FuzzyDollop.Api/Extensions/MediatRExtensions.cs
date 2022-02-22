@@ -9,7 +9,7 @@ namespace FuzzyDollop.Api.Extensions
     {
         public static IServiceCollection AddMediatR(this IServiceCollection services) =>
             services
-                .AddMediatR(typeof(IResult).Assembly)
+                .AddMediatR(typeof(IAppResult).Assembly)
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
     }
 }
