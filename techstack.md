@@ -4,7 +4,6 @@
 andrew-hillier/fuzzy-dollop is built on the following main stack:
 
 - [C#](http://csharp.net) – Languages
-- [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -16,7 +15,6 @@ Full tech stack [here](/techstack.md)
 andrew-hillier/fuzzy-dollop is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png' alt='C#'/> [C#](http://csharp.net) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'/> [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -28,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [andrew-hillier/fuzzy-dollop](https://github.com/andrew-hillier/fuzzy-dollop)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|4<br/>Tools used|01/23/24 <br/>Report generated|
+|4<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -59,14 +57,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'>
   <br>
   <sub><a href="https://github.com/features/actions">GitHub Actions</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'>
-  <br>
-  <sub><a href="http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx">Visual Studio</a></sub>
   <br>
   <sub></sub>
 </td>
