@@ -5,7 +5,6 @@ andrew-hillier/fuzzy-dollop is built on the following main stack:
 
 - [C#](http://csharp.net) – Languages
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 
 Full tech stack [here](/techstack.md)
 
@@ -17,7 +16,6 @@ andrew-hillier/fuzzy-dollop is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png' alt='C#'/> [C#](http://csharp.net) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'/> [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 
 Full tech stack [here](/techstack.md)
 
