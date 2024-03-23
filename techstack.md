@@ -61,14 +61,6 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'>
-  <br>
-  <sub><a href="http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx">Visual Studio</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
 </tr>
 </table>
 
